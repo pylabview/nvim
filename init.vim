@@ -15,7 +15,7 @@ call plug#end()
 
 colorscheme gruvbox
 " Mirror the NERDTree before showing it. This makes it the same on all tabs.
-nnoremap <C-n> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
+map <silent> <C-n> :NERDTreeFocus<CR>
 
 set colorcolumn=80
 set background=dark
