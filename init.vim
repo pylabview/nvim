@@ -18,6 +18,10 @@ Plug 'bbenzikry/snazzybuddy.nvim'
 Plug 'ciaranm/inkpot'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'glepnir/dashboard-nvim'
+Plug 'liuchengxu/vim-clap'
 call plug#end()
 
 "colorscheme gruvbox
@@ -40,5 +44,3 @@ set noerrorbells
 set tabstop=4 softtabstop=4
 set expandtab
 set smartindent
-
-
